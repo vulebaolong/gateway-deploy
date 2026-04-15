@@ -13,7 +13,7 @@ async function bootstrap() {
   app.useGlobalPipes(new ValidationPipe());
 
   const config = new DocumentBuilder()
-    .setTitle('Anh Long')
+    .setTitle('Anh Long Quá xịn')
     .setDescription('The cats API description')
     .setVersion('1.0')
     .addTag('cats')
